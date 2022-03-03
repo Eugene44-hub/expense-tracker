@@ -1,0 +1,13 @@
+.expensesAndIncome {
+    display: flex;
+}
+
+.expense {
+    flex: 50%;
+    background-color: rgba(227, 118, 118, 1);
+}
+
+.income {
+    flex: 50%;
+    background-color: rgba(206, 236, 143, 1);
+}

@@ -1,0 +1,37 @@
+.TransactionName,
+.Amount {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    margin: 10px 0;
+}
+
+.chooseTransaction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.NewTransac {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin: auto;
+}
+
+.submit-btn {
+    display: flex;
+    padding: 20px;
+}

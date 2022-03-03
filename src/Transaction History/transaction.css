@@ -1,0 +1,54 @@
+ul li {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amount {
+    float: right;
+}
+
+.expense-list {
+    border-right: 5px solid red;
+    color: white;
+    position: relative;
+}
+
+.income-list {
+    border-right: 5px solid greenyellow;
+    color: white;
+    position: relative;
+}
+
+.delete {
+    position: absolute;
+    left: -12%;
+    background-color: red;
+    top: 0;
+    font-weight: bold;
+    display: none;
+    animation-name: delete;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    overflow: hidden;
+}
+
+ul li:hover .delete {
+    display: block;
+    /* transition: all 0.1ms; */
+}
+
+@keyframes delete {
+    from {
+        width: 0;
+    }
+    to {
+        width: auto;
+        padding: 10px 20px;
+    }
+}

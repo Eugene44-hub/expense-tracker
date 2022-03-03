@@ -1,0 +1,6 @@
+    .container {
+        box-shadow: 1px 5px 10px rgb(197, 186, 186);
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+    }
