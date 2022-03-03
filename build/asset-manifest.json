@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e3d7763.css",
+    "main.js": "/static/js/main.780814b6.js",
+    "static/js/787.606f0ee5.chunk.js": "/static/js/787.606f0ee5.chunk.js",
+    "static/media/naira.svg": "/static/media/naira.ee747084fcd81bb02c41881c130a5912.svg",
+    "index.html": "/index.html",
+    "main.4e3d7763.css.map": "/static/css/main.4e3d7763.css.map",
+    "main.780814b6.js.map": "/static/js/main.780814b6.js.map",
+    "787.606f0ee5.chunk.js.map": "/static/js/787.606f0ee5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e3d7763.css",
+    "static/js/main.780814b6.js"
+  ]
+}
